@@ -1,0 +1,15 @@
+{
+    "protocol" : "BidCommunication",
+    "namespace":"common",
+    "types": [{
+      "type":"record",
+      "name":"Candidate",
+      "fields": [{
+        "name": "p1",
+        "type": "string"
+      }, {
+        "name": "p2",
+        "type": ["null", "string"]
+      }]
+    }]
+}
